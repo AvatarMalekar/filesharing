@@ -14,11 +14,11 @@ user.
 #curls for endpoints
 1. To upload the file
    
-curl --location 'http://localhost:8080/files/upload' \
+curl --location 'http://ec2-3-145-46-43.us-east-2.compute.amazonaws.com:8080/files/upload' \
 --form 'file=@"/C:/Users/AVATAR/Downloads/form_to_sent_to_banglore.pdf"' \
 --form 'passcode="abscrldhecbrolsf_giadguidag_uagduigd"'
 
 
 2.To download the file
 
-2. curl --location 'http://localhost:8080/files/download/3d92df94-f5c6-4309-a8ef-8152f80175a5?passcode=abscrldhecbrolsf_giadguidag_uagduiga'
+2. curl --location 'http://ec2-3-145-46-43.us-east-2.compute.amazonaws.com:8080/files/download/d5170e47-b1b2-4698-9b4e-82854862390b?passcode=abscrldhecbrolsf_giadguidag_uagduigd'
